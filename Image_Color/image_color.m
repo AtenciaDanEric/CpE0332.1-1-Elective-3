@@ -1,5 +1,4 @@
 pkg load image;
-% Dan Eric Atencia - BS CpE 3-1
 
 % Read the image
 img_color = imread('D:\Aya\College\3rd Year CpE\Third Year Summer\Elective 3 (Lab)\orange.png');
@@ -42,7 +41,7 @@ figure(4);
 imshow(Img4);
 title('Gray');
 
-%Writ/saves all image files
+%Write/saves all image files
 imwrite(Img1, 'red_img.png');
 imwrite(Img2, 'green_img.png');
 imwrite(Img3, 'blue_img.png');
